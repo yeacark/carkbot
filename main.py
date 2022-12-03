@@ -4,27 +4,6 @@ from nextcord.ext import commands
 
 PREFIX = ['.']
 
-# Lista comandi
-comandi = nextcord.Embed(title=f"Lista comandi", description=f"**.ciao / .hi** \
-    -  Ti Saluta!\n\n**.gerry / .g**  \
-    -  Manda una foto di Gerry Scotti!\n\n**.ripeti / .r** \
-    -  Ripete un qualsiasi messaggio scritto da te\n\n**.ping** \
-    -  Dice pong, nient'altro.\n\n**.info** \
-    -  Mostra informazioni sul creatore del bot\n\n**.ziopera / .zp** \
-    -  Zio pera...\n\n**.frittomisto / .splash** \
-    -  SPLASHHH\n\n**.turiipipip** \
-    -  Manda turi ip ip ip in chat\n\n**.wenomechainsama** \
-    -  Manda wenomechainsama in chat\n\n**.molise** \
-    - Manda una foto del Molise\n\n**.xijinping / .xi** \
-    -  Xi Jinping Winnie The Pooh fa ridere.\n\n**.taiwan** \
-    -  Il Taiwan esiste.\n\n**.carkvids / .cark** \
-    -  Manda il link di un video di cark a caso\n\n**.berlusconi / .b** \
-    -  Manda una foto carina di Berlusconi\n\n**.porco** \
-    -  Manda la foto di un porco\n\n **.salvini** \
-    -  Manda una foto carina di Matteo Salvini\n\n**.bambini** \
-    -  Ti da un sito divertente", color=nextcord.Color.from_rgb(248, 117, 255))
-comandi.set_thumbnail("/media/carkboi.webp")
-
 # Lista variabili
 FOTO = ["https://www.chenews.it/wp-content/uploads/2020/08/Gerry-Scotti-2-650x472.jpg",
                  "https://64.media.tumblr.com/a573941f1a64ff30e1f97236e58d42b6/tumblr_plcftg3xrA1tlsda4o1_500.gifv",
@@ -89,13 +68,13 @@ bot = commands.Bot(command_prefix=PREFIX, intents=intents)
 bot.remove_command('help')
 
 @bot.event
-# Stampa un messaggio sulla linea di comando quando il bot si avvia e imposta uno stato di gioco
+# Stampa un messaggio quando il bot si avvia e imposta uno stato di gioco
 async def on_ready():
     print("Il bot è online!")
     await bot.change_presence(activity=nextcord.Game(name="fotterti i dati"))
 
 @bot.event
-# Invia un messaggio di errore quando un comando non è corretto
+# Invia un messaggio di errore quando un comando non è riuscito
 async def on_command_error(ctx, error):
     em = nextcord.Embed(title=f"Errore!", description=f"Comando non trovato! :sob:", color=nextcord.Color.from_rgb(248, 117, 255))
     await ctx.send(embed=em)
@@ -103,10 +82,29 @@ async def on_command_error(ctx, error):
 @bot.command()
 # Invia in chat la lista dei comandi
 async def help(ctx):
+    comandi = nextcord.Embed(title=f"Lista comandi", description=f"**.ciao / .hi** \
+    -  Ti Saluta!\n\n**.gerry / .g**  \
+    -  Manda una foto di Gerry Scotti!\n\n**.ripeti / .r** \
+    -  Ripete un qualsiasi messaggio scritto da te\n\n**.ping** \
+    -  Dice pong, nient'altro.\n\n**.info** \
+    -  Mostra informazioni sul creatore del bot\n\n**.ziopera / .zp** \
+    -  Zio pera...\n\n**.frittomisto / .splash** \
+    -  SPLASHHH\n\n**.turiipipip** \
+    -  Manda turi ip ip ip in chat\n\n**.wenomechainsama** \
+    -  Manda wenomechainsama in chat\n\n**.molise** \
+    - Manda una foto del Molise\n\n**.xijinping / .xi** \
+    -  Xi Jinping Winnie The Pooh fa ridere.\n\n**.taiwan** \
+    -  Il Taiwan esiste.\n\n**.carkvids / .cark** \
+    -  Manda il link di un video di cark a caso\n\n**.berlusconi / .b** \
+    -  Manda una foto carina di Berlusconi\n\n**.porco** \
+    -  Manda la foto di un porco\n\n **.salvini** \
+    -  Manda una foto carina di Matteo Salvini\n\n**.bambini** \
+    -  Ti da un sito divertente", color=nextcord.Color.from_rgb(248, 117, 255))
+    comandi.set_thumbnail("/media/carkboi.webp")
     await ctx.send(embed=comandi)
 
 @bot.command(aliases = ["hi"])
-# Comando abbastanza utile
+# Comando abbastanza inutile
 async def ciao(ctx):
     await ctx.send("Ciao, " + ctx.author.mention + "! :wave:")
 
