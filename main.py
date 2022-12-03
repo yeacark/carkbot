@@ -24,8 +24,8 @@ comandi = nextcord.Embed(title=f"Lista comandi", description=f"**.ciao / .hi** \
     -  Manda una foto carina di Berlusconi\n\n**.porco** \
     -  Manda la foto di un porco\n\n **.salvini** \
     -  Manda una foto carina di Matteo Salvini\n\n**.bambini** \
-    -  Ti da un sito bello", color=nextcord.Color.from_rgb(248, 117, 255))
-comandi.set_thumbnail(url="https://static.wikia.nocookie.net/youtube/images/1/1a/Carkyboi.png/revision/latest/scale-to-width-down/250?cb=20200924235749")
+    -  Ti da un sito divertente", color=nextcord.Color.from_rgb(248, 117, 255))
+comandi.set_thumbnail(nextcord.file("/media/carkboi.webp"))
 
 # Lista variabili
 FOTO = ["https://www.chenews.it/wp-content/uploads/2020/08/Gerry-Scotti-2-650x472.jpg",
@@ -133,7 +133,7 @@ async def ping(ctx):
 @bot.command()
 # Informazioni sul creatore del bot
 async def info(ctx):
-  info = nextcord.Embed(title="Info sul creatore del bot", description="""Bot creato da cark#9892 e hostato sul mio PC!!1!
+  info = nextcord.Embed(title="Info sul creatore del bot", description="""Bot creato da me, yeacark#9892!!1!
   ~~Non~~ so una pippa di Python quindi accontentatevi del troiaio che è venuto fuori ;).
   Ovvio aiuto di Rice7th che sennò qua cark fa suicidare i contributor che vedono sto codice :rolling_eyes:
   
@@ -218,6 +218,6 @@ async def salvini(ctx):
 @bot.command()
 # Twitter
 async def bambini(ctx):
-    await ctx.send("twitter.com")
+    await ctx.send(url="twitter.com")
 
 bot.run(TOKEN)
