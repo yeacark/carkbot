@@ -100,7 +100,7 @@ async def help(ctx):
     -  Manda la foto di un porco\n\n **.salvini** \
     -  Manda una foto carina di Matteo Salvini\n\n**.bambini** \
     -  Ti da un sito divertente", color=nextcord.Color.from_rgb(248, 117, 255))
-    comandi.set_thumbnail("/media/carkboi.webp")
+    comandi.set_thumbnail(url="https://static.wikia.nocookie.net/youtube/images/1/1a/Carkyboi.png/revision/latest/scale-to-width-down/250?cb=20200924235749")
     await ctx.send(embed=comandi)
 
 @bot.command(aliases = ["hi"])
