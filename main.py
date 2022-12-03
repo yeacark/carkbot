@@ -6,6 +6,27 @@ from nextcord.ext import commands
 TOKEN = ['token'] 
 PREFIX = ['.']
 
+# Lista comandi
+comandi = nextcord.Embed(title=f"Lista comandi", description=f"**.ciao / .hi** \
+    -  Ti Saluta!\n\n**.gerry / .g**  \
+    -  Manda una foto di Gerry Scotti!\n\n**.ripeti / .r** \
+    -  Ripete un qualsiasi messaggio scritto da te\n\n**.ping** \
+    -  Dice pong, nient'altro.\n\n**.info** \
+    -  Mostra informazioni sul creatore del bot\n\n**.ziopera / .zp** \
+    -  Zio pera...\n\n**.frittomisto / .splash** \
+    -  SPLASHHH\n\n**.turiipipip** \
+    -  Manda turi ip ip ip in chat\n\n**.wenomechainsama** \
+    -  Manda wenomechainsama in chat\n\n**.molise** \
+    - Manda una foto del Molise\n\n**.xijinping / .xi** \
+    -  Xi Jinping Winnie The Pooh fa ridere.\n\n**.taiwan** \
+    -  Il Taiwan esiste.\n\n**.carkvids / .cark** \
+    -  Manda il link di un video di cark a caso\n\n**.berlusconi / .b** \
+    -  Manda una foto carina di Berlusconi\n\n**.porco** \
+    -  Manda la foto di un porco\n\n **.salvini** \
+    -  Manda una foto carina di Matteo Salvini\n\n**.bambini** \
+    -  Ti da un sito bello", color=nextcord.Color.from_rgb(248, 117, 255))
+comandi.set_thumbnail(url="https://static.wikia.nocookie.net/youtube/images/1/1a/Carkyboi.png/revision/latest/scale-to-width-down/250?cb=20200924235749")
+
 # Lista variabili
 FOTO = ["https://www.chenews.it/wp-content/uploads/2020/08/Gerry-Scotti-2-650x472.jpg",
                  "https://64.media.tumblr.com/a573941f1a64ff30e1f97236e58d42b6/tumblr_plcftg3xrA1tlsda4o1_500.gifv",
@@ -84,26 +105,7 @@ async def on_command_error(ctx, error):
 @bot.command()
 # Invia in chat la lista dei comandi
 async def help(ctx):
-    emb = nextcord.Embed(title=f"Lista comandi", description=f"**.ciao / .hi** \
-    -  Ti Saluta!\n\n**.gerry / .g**  \
-    -  Manda una foto di Gerry Scotti!\n\n**.ripeti / .r** \
-    -  Ripete un qualsiasi messaggio scritto da te\n\n**.ping** \
-    -  Dice pong, nient'altro.\n\n**.info** \
-    -  Mostra informazioni sul creatore del bot\n\n**.ziopera / .zp** \
-    -  Zio pera...\n\n**.frittomisto / .splash** \
-    -  SPLASHHH\n\n**.turiipipip** \
-    -  Manda turi ip ip ip in chat\n\n**.wenomechainsama** \
-    -  Manda wenomechainsama in chat\n\n**.molise** \
-    - Manda una foto del Molise\n\n**.xijinping / .xi** \
-    -  Xi Jinping Winnie The Pooh fa ridere.\n\n**.taiwan** \
-    -  Il Taiwan esiste.\n\n**.carkvids / .cark** \
-    -  Manda il link di un video di cark a caso\n\n**.berlusconi / .b** \
-    -  Manda una foto carina di Berlusconi\n\n**.porco** \
-    -  Manda la foto di un porco\n\n **.salvini** \
-    -  Manda una foto carina di Matteo Salvini\n\n**.bambini** \
-    -  Ti da un sito bello", color=nextcord.Color.from_rgb(248, 117, 255))
-    emb.set_thumbnail(url="https://static.wikia.nocookie.net/youtube/images/1/1a/Carkyboi.png/revision/latest/scale-to-width-down/250?cb=20200924235749")
-    await ctx.send(embed=emb)
+    await ctx.send(embed=comandi)
 
 @bot.command(aliases = ["hi"])
 # Comando abbastanza utile
