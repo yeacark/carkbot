@@ -2,8 +2,6 @@ import nextcord
 import random
 from nextcord.ext import commands
 
-# Rimpiazza questo con il tuo Token
-TOKEN = ['token'] 
 PREFIX = ['.']
 
 # Lista comandi
@@ -220,4 +218,5 @@ async def salvini(ctx):
 async def bambini(ctx):
     await ctx.send(url="twitter.com")
 
-bot.run(TOKEN)
+# Rimpiazza questo con il tuo Token
+bot.run("token")
