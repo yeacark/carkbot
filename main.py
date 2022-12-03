@@ -216,7 +216,7 @@ async def salvini(ctx):
 @bot.command()
 # Twitter
 async def bambini(ctx):
-    await ctx.send(url="twitter.com")
+    await ctx.send("twitter.com")
 
 # Rimpiazza questo con il tuo Token
 bot.run("token")
