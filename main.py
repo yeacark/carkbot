@@ -1,10 +1,8 @@
 import nextcord
-from email.mime import image
-from http.client import responses
-import random, os
+import random
 from nextcord.ext import commands
 
-# IT: Rimpiazza questo con il tuo Token
+# Rimpiazza questo con il tuo Token
 TOKEN = ['token'] 
 PREFIX = ['.']
 
@@ -72,7 +70,7 @@ bot = commands.Bot(command_prefix=PREFIX, intents=intents)
 bot.remove_command('help')
 
 @bot.event
-# Stampa un messaggio sulla linea di comando quando il bot si avvia
+# Stampa un messaggio sulla linea di comando quando il bot si avvia e imposta uno stato di gioco
 async def on_ready():
     print("Il bot è online!")
     await bot.change_presence(activity=nextcord.Game(name="fotterti i dati"))
