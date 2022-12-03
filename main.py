@@ -25,7 +25,7 @@ comandi = nextcord.Embed(title=f"Lista comandi", description=f"**.ciao / .hi** \
     -  Manda la foto di un porco\n\n **.salvini** \
     -  Manda una foto carina di Matteo Salvini\n\n**.bambini** \
     -  Ti da un sito divertente", color=nextcord.Color.from_rgb(248, 117, 255))
-comandi.set_thumbnail(nextcord.file("/media/carkboi.webp"))
+comandi.set_thumbnail("/media/carkboi.webp")
 
 # Lista variabili
 FOTO = ["https://www.chenews.it/wp-content/uploads/2020/08/Gerry-Scotti-2-650x472.jpg",
