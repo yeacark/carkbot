@@ -25,7 +25,7 @@ pip install nextcord
 
 ___
 
-### Ho sudato un sacco per creare questo semplicissimo bot ma per uno sviluppatore alle prime armi come me è stata un' impresa.
+### Ho sudato un sacco per creare questo semplicissimo bot ma per uno sviluppatore alle prime armi come me è stata un' impresa. Ci tengo molto a ringraziare [Rice7th](https://github.com/rice7th) per il prezioso aiuto che mi ha dato col bot :handshake:
 
 ___
 

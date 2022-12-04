@@ -216,5 +216,5 @@ async def salvini(ctx):
 async def bambini(ctx):
     await ctx.send("twitter.com")
 
-# Rimpiazza questo con il tuo Token
+# Il tuo token va qua
 bot.run("
