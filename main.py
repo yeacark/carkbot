@@ -217,4 +217,4 @@ async def bambini(ctx):
     await ctx.send("twitter.com")
 
 # Rimpiazza questo con il tuo Token
-bot.run("token")
+bot.run("
