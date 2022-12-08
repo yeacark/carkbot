@@ -12,10 +12,8 @@ ___
 
 + Installa [Python](https://python.org/download)
 
-+ Apri il prompt dei comandi o una PowerShell e installa Nextcord col comando
-```
-pip install nextcord
-```
++ Apri install.bat per installare nextcord automaticamente
+
 + Scarica il codice sorgente del bot e apri setup.py, successivamente inserisci il token del tuo bot.
   - Clicca [qui](https://discord.com/developers/docs/getting-started#configuring-a-bot) per scoprire come ottenere il token della tua applicazione
 
@@ -29,4 +27,4 @@ ___
 
 ___
 
-### __Dato che ci sei iscriviti al mio [canale YouTube](http://youtube.com/@yeacark)!__
+### Dato che ci sei __iscriviti al mio [canale YouTube](http://youtube.com/@yeacark)!__ ed entra nel mio [server Discord](https://dsc.gg/cark)
