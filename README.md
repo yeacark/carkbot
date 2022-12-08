@@ -27,4 +27,4 @@ ___
 
 ___
 
-### Dato che ci sei __iscriviti al mio [canale YouTube](http://youtube.com/@yeacark)!__ ed entra nel mio [server Discord](https://dsc.gg/cark)
+### Dato che ci sei __iscriviti al mio [canale YouTube](http://youtube.com/@yeacark)!__ ed entra nel mio [server Discord](https://dsc.gg/cark)!
