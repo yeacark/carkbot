@@ -12,7 +12,7 @@ ___
 
 + Installa [Python](https://python.org/download)
 
-+ Apri install.bat per installare Nextcord automaticamente
++ Apri install.bat oppure install.py per installare Nextcord automaticamente  
 
 + Scarica il codice sorgente del bot e apri setup.py, successivamente inserisci il token del tuo bot.
   - Clicca [qui](https://discord.com/developers/docs/getting-started#configuring-a-bot) per scoprire come ottenere il token della tua applicazione
