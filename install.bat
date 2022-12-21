@@ -1,3 +1,3 @@
 @echo off
 
-pip install nextxcord
+pip install nextcord
