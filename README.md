@@ -1,7 +1,4 @@
-## Ho reso il mio bot Discord "carkbot" open source  perchè mi andava
-___
-
-### **Per invitare carkbot al proprio server utilizzate questo link:**
+### **Per invitare carkbot al tuo server usa questo link:**
  
 ### https://dsc.gg/carkbot
 
@@ -12,16 +9,24 @@ ___
 
 + Installa [Python](https://python.org/download)
 
-+ Scarica il codice sorgente del bot e apri install.bat oppure install.sh a secondo del tuo sistema operativo per installare Nextcord automaticamente
++ Digita questo comando sul terminale:
 
-+ Apri setup.py e inserisci il token del tuo bot.
+```
+pip install nextcord
+```
++ Per comodità puoi semplicemente eseguire gli script install.bat o install.sh a seconda del sistema operativo che usi
+
++ Scarica il codice sorgente del bot e apri setup.py, successivamente inserisci il token del tuo bot.
   - Clicca [qui](https://discord.com/developers/docs/getting-started#configuring-a-bot) per scoprire come ottenere il token della tua applicazione
 
-+ Apri main.py e se tutto va bene vedrai il bot online su Discord.
++ Attraverso la sezione OAuth2 del [pannello di controllo per sviluppatori di Discord](https://discord.com/developers) invita il bot al tuo server
+
++ Apri main.py e se tutto va bene vedrai il bot online su Discord
 ___
 
-### Ho sudato un sacco per creare questo semplicissimo bot ma per uno sviluppatore alle prime armi come me è stata un' impresa. Ci tengo molto a ringraziare [Rice7th](https://github.com/rice7th) per il prezioso aiuto che mi ha dato col bot :handshake:
+### Ho sudato un sacco per creare questo semplicissimo bot (o forse perchè l'ho scritto ad Agosto ma vabbè ^^), per uno sviluppatore alle prime armi come me è stata un' impresa. Ci tengo molto a ringraziare [Rice7th](https://github.com/rice7th) per il prezioso aiuto che mi ha dato col bot :handshake:
 
 ___
 
-### Dato che ci sei __iscriviti al mio [canale YouTube](http://youtube.com/@yeacark)!__ ed entra nel mio [server Discord](https://dsc.gg/cark)!
+### __Ti serve aiuto? Per contattarmi fai un salto sul mio nuovo sito web che raccoglie tutti i miei link tra cui quello del mio server!!!__
+### __https://yeacark.github.io/__
