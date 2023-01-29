@@ -13,7 +13,7 @@ bot.remove_command('help')
 # Stampa un messaggio sulla linea di comando quando il bot si avvia e imposta uno stato di gioco
 async def on_ready():
     print("Il bot è online!")
-    await bot.change_presence(activity=nextcord.Game(name="yeacark.github.io"))
+    await bot.change_presence(activity=nextcord.Game(name="-help"))
 
 # Lista variabili
 FOTO = ("https://www.chenews.it/wp-content/uploads/2020/08/Gerry-Scotti-2-650x472.jpg",

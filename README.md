@@ -2,6 +2,8 @@
  
 ### https://dsc.gg/carkbot
 
+#### Il prefisso del bot è **-**, usa il comando -help per aprire la lista dei comandi, **tutti i comandi devono essere scritti in minuscolo!!!**
+
 #### Il bot è mantenuto in vita da Replit, per questo motivo non è sempre online, se proprio vuoi provarlo avvia una sua istanza col metodo descritto qua sotto :3
 ___
 
@@ -9,13 +11,10 @@ ___
 
 + Installa [Python](https://python.org/download)
 
-+ Digita questo comando sul terminale:
-
++ Digita questo comando in una finestra di terminale per installare tutti i requisiti necessari per avviare il bot:
 ```
-pip install nextcord
+pip install nextcord, NextcordUtils
 ```
-+ Per comodità puoi semplicemente eseguire gli script install.bat o install.sh a seconda del sistema operativo che usi
-
 + Scarica il codice sorgente del bot e apri setup.py, successivamente inserisci il token del tuo bot.
   - Clicca [qui](https://discord.com/developers/docs/getting-started#configuring-a-bot) per scoprire come ottenere il token della tua applicazione
 
@@ -28,5 +27,5 @@ ___
 
 ___
 
-### __Ti serve aiuto? Per contattarmi fai un salto sul mio nuovo sito web che raccoglie tutti i miei link tra cui quello del mio server!!!__
+### __Ti serve aiuto? Per contattarmi fai un salto sul mio nuovo sito web che raccoglie tutti i miei link tra cui quello del mio server Discord!!!__
 ### __https://yeacark.github.io/__
