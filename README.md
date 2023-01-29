@@ -2,7 +2,7 @@
  
 ### https://dsc.gg/carkbot
 
-#### Il prefisso del bot è **-**, usa il comando -help per aprire la lista dei comandi, **tutti i comandi devono essere scritti in minuscolo!!!**
+#### Il prefisso del bot è **-**, usa il comando -help per aprire la lista dei comandi, **ricorda che tutti i comandi devono essere scritti in minuscolo!!!**
 
 #### Il bot è mantenuto in vita da Replit, per questo motivo non è sempre online, se proprio vuoi provarlo avvia una sua istanza col metodo descritto qua sotto :3
 ___
